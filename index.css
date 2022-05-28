@@ -4,14 +4,17 @@
   margin: 0;
 }
 
+.grid {
+  max-width: 1280px;
+  width: 100%;
+}
+
 ul li {
   display: inline-block;
   text-decoration: none;
 }
 
 .header {
-  max-width: 1512px;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,5 +25,22 @@ ul li {
 
 .nav-list li + li {
   padding-left: 20px;
-  background-color: pink;
+}
+
+.banner {
+  margin: 0 auto;
+}
+
+.banner li {
+  margin: 0;
+  padding: 0;
+  transform: skew(-20deg);
+  overflow: hidden;
+  max-width: 316px;
+  max-height: 474px;
+}
+
+.banner-image {
+  width: 800px;
+  transform: skew(20deg);
 }

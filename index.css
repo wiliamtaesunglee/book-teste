@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header {
+  max-width: 1512px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 70px;
+  align-items: center;
+}
+
+.nav-list li + li {
+  padding-left: 20px;
+  background-color: pink;
+}
